@@ -6,6 +6,7 @@
   "scripts": {
     "watch": "nodemon src/server.js",
     "test": "jest --detectOpenHandles",
+    "run-server":"node src/server.js",
     "start": "PORT=4000 node src/server.js",
     "cluster": "./node_modules/pm2/bin/pm2 start src/server.js -i max",
     "cluster-monit": "./node_modules/pm2/bin/pm2 monit"
